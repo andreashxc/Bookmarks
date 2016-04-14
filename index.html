@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bookmarks">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="ya-title=#000,ya-dock=#FFF" />
+    <title>Yandex Design School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="/libs/angular.min.js" charset="utf-8"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="book.js" charset="utf-8"></script>
+
+
+</head>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter31326863 = new Ya.Metrika({ id:31326863, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script>
+<!-- /Yandex.Metrika counter -->
+
+<body>
+
+    <div class="header header_fon" style="background-image: url('img/Fon_pic.png')">
+        <div class="header_wrap" style="background-image: url('img/dark.png')">
+            <div class="header_top">
+                <div class="header_logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></div>
+                <div class="right_head">
+                    <div class="seacrh_icon"><img src="img/search_icon.svg" alt=""></div>
+                    <div class="enter_button">Войти</div>
+                </div>
+            </div>
+            <div class="header_text">
+                <div class="path">
+                    <div class="path_link">Yandex Design School</div>
+                    <div class="path_arrow"><img src="img/path.svg" alt=""></div>
+                </div>
+                <div class="h">Design in Big Company
+                    <div class="share"><img src="img/share.svg" alt=""></div>
+                </div>
+                <div class="info">
+                    <div class="coll">Публичная коллекция</div>
+                    <div class="user">Автор: <a href="http://lookthat.ru">Андрей Мануилов</a></div>
+                    <div class="looks">27 просмотров</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! -->
+    <div class="books_all" ng-controller="BookmarksController as bCtrl">
+        <ul class="bookmarks">
+
+                <li class="bookmark" ng-repeat="bookmarks in bCtrl.collection | filter:query">
+                    <a href="{{bookmarks.link.href}}" class="card">
+                            <div class="icons_h">
+                                <div class="like"><img src="img/heart.svg" alt=""></div>
+                                <div class="share_h"><img src="img/share_h.svg" alt=""></div>
+                            </div>
+                            <div class="text-block">
+                                <div class="title">{{bookmarks.header.text}}</div>
+                                    <div class="resourse">
+                                        <div class="logo" style="background-image: url('{{bookmarks.logo.src}}')"></div>
+                                        <div class="link">{{bookmarks.link.text}}</div>
+                                    </div>
+                            </div>
+                            <div style="background-image: url('{{bookmarks.pic.src}}')" class="card_pic"></div>
+                    </a>
+                </li>
+
+        </ul>
+        <div class="line"></div>
+        <!-- <div class="PR" style="background-image: url('img/PR.png')"></div>
+        <div class="line"></div> -->
+
+        <div class="footer">
+            <div class="footer_left">
+                <div class="text_column">О сервисе <br>Помощь <br>Пользовательское соглашение</div>
+                <div class="text_column">Информация для СМИ <br>Партнеры <br>Статистика </div>
+            </div>
+            <div class="copy">© 2015 Школа Дизайна Яндекса</div>
+        </div>
+
+    </div>
+
+    <!-- <div class="banner">Создать свою коллекцию<div class="used"><img src="img/used.svg" alt=""></div></div> -->
+
+
+</body>
+</html>

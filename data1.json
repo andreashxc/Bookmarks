@@ -1,0 +1,144 @@
+{
+  "movies": [
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/dkMD5qlogeRMiEixC4YNPUvax2T.jpg",
+      "title": "Мир Юрского периода",
+      "genres": "боевик, приключения, фантастика, триллер",
+      "rating": "7.0",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/bIlYH4l2AyYvEysmS2AOfjO7Dn8.jpg",
+      "title": "Терминатор: Генезис",
+      "genres": "фантастика, боевик, триллер, приключения",
+      "rating": "6.3",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/tbhdm8UJAb4ViCTsulYFL3lxMCd.jpg",
+      "title": "Безумный Макс: Дорога ярости",
+      "genres": "триллер, боевик, приключения",
+      "rating": "7.8",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/cUfGqafAVQkatQ7N4y08RNV3bgu.jpg",
+      "title": "Разлом Сан-Андреас",
+      "genres": "боевик, драма, триллер",
+      "rating": "6.2",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/nkwoiSVJLeK0NI8kTqioBna61bm.jpg",
+      "title": "Третий лишний 2",
+      "genres": "комедия",
+      "rating": "7.2",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/4liSXBZZdURI0c1Id1zLJo6Z3Gu.jpg",
+      "title": "Восхождение Юпитер",
+      "genres": "фантастика, фэнтези, боевик, приключения",
+      "rating": "5.4",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/y5lG7TBpeOMG0jxAaTK0ghZSzBJ.jpg",
+      "title": "Робот по имени Чаппи",
+      "genres": "боевик, фантастика, триллер",
+      "rating": "6.7",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg",
+      "title": "Интерстеллар",
+      "genres": "драма, фантастика",
+      "rating": "8.4",
+      "year": "2014"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/2BXd0t9JdVqCp9sKf6kzMkr7QjB.jpg",
+      "title": "Город героев",
+      "genres": "приключения, семейный, мультфильм, боевик, комедия",
+      "rating": "7.9",
+      "year": "2014"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/qhH3GyIfAnGv1pjdV3mw03qAilg.jpg",
+      "title": "Хоббит: Битва пяти воинств",
+      "genres": "приключения, фэнтези",
+      "rating": "7.2",
+      "year": "2014"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/kJre98tnbNXbk5L5altHkQWGwD3.jpg",
+      "title": "Земля завтрашнего дня",
+      "genres": "боевик, приключения, фантастика, детектив",
+      "rating": "6.5",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/szytSpLAyBh3ULei3x663mAv5ZT.jpg",
+      "title": "Головоломка",
+      "genres": "комедия, мультфильм, семейный",
+      "rating": "8.4",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/9eKd1DDDAbrDNXR2he7ZJEu7UkI.jpg",
+      "title": "Kingsman: Секретная служба",
+      "genres": "криминал, комедия, боевик, приключения",
+      "rating": "7.7",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/xjjO3JIdneMBTsS282JffiPqfHW.jpg",
+      "title": "Золушка",
+      "genres": "мелодрама, фэнтези, семейный, драма",
+      "rating": "7.1",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/fUn5I5f4069vwGFEEvA3HXt9xPP.jpg",
+      "title": "Голодные игры: Сойка-пересмешница. Часть I",
+      "genres": "фантастика, приключения, триллер",
+      "rating": "7.0",
+      "year": "2014"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/rFtsE7Lhlc2jRWF7SRAU0fvrveQ.jpg",
+      "title": "Мстители: Эра Альтрона",
+      "genres": "приключения, фантастика, боевик",
+      "rating": "7.8",
+      "year": "2015"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/bHarw8xrmQeqf3t8HpuMY7zoK4x.jpg",
+      "title": "Стражи Галактики",
+      "genres": "фантастика, фэнтези, приключения",
+      "rating": "8.2",
+      "year": "2014"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/mFb0ygcue4ITixDkdr7wm1Tdarx.jpg",
+      "title": "Джон Уик",
+      "genres": "боевик, триллер",
+      "rating": "7.1",
+      "year": "2014"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/hUDEHvhNJLNcb83Pp7xnFn0Wj09.jpg",
+      "title": "Бёрдмэн",
+      "genres": "драма, комедия",
+      "rating": "7.4",
+      "year": "2014"
+    },
+    {
+      "cover": "https://image.tmdb.org/t/p/w500_and_h281_bestv2/fii9tPZTpy75qOCJBulWOb0ifGp.jpg",
+      "title": "Игра в имитацию",
+      "genres": "история, драма, триллер, военный",
+      "rating": "8.1",
+      "year": "2014"
+    }
+  ]
+}
